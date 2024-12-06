@@ -3,6 +3,7 @@ title: "3 年使って離れられない、文書作成ツールの紹介"
 emoji: "🐈"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["emacs", "org", "doomemacs"]
+publication_name: "medley"
 published: false
 ---
 # はじめに
