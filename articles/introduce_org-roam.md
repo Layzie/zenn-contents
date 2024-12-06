@@ -42,7 +42,7 @@ published: false
 
 org-roam とは何かというと、[Roam RESEARCH](https://roamresearch.com/)というリンクで文書をどんどん連動させるメモサービスを Emacs の org モードで再現するプラグインです。
 
-この形式に似たものとしては、有名な[KJ 法](https://ja.wikipedia.org/wiki/KJ%E6%B3%95)などや類似だなと思うのが[Obsidian](https://obsidian.md/)でしょうか。
+この形式に似たものとしては、有名な[KJ 法](https://ja.wikipedia.org/wiki/KJ%E6%B3%95)やプロダクトでは[Obsidian](https://obsidian.md/)などでしょうか。
 
 基本的に Dropbox など使わなければローカルで org ファイルを保存するのでセキュリティ的にもあまり外に出したくない情報を便利に保存したい場合には良い選択肢かと思います。
 
