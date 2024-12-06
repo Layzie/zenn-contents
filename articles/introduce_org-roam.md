@@ -37,6 +37,8 @@ published: false
 
 ## org-roam とは
 
+![](/images/introduce_org-roam/org-roam.png)
+
 org-roam とは何かというと、[Roam RESEARCH](https://roamresearch.com/)というリンクで文書をどんどん連動させるメモサービスを Emacs の org モードで再現するプラグインです。
 
 この形式に似たものとしては、有名な[KJ 法](https://ja.wikipedia.org/wiki/KJ%E6%B3%95)などや類似だなと思うのが[Obsidian](https://obsidian.md/)でしょうか。
@@ -44,6 +46,8 @@ org-roam とは何かというと、[Roam RESEARCH](https://roamresearch.com/)�
 基本的に Dropbox など使わなければローカルで org ファイルを保存するのでセキュリティ的にもあまり外に出したくない情報を便利に保存したい場合には良い選択肢かと思います。
 
 ## org モードとは
+
+![](/images/introduce_org-roam/org-mode.png)
 
 ベースとなる org モードについてですが Emacs に標準で搭載されているマークアップ言語、及びその編集モードになります。
 
@@ -66,6 +70,8 @@ Markdown ではエディタに依存するエキスポートですが、LaTex �
 ここは一番の難所ではあるのですが、いくつか org を扱うエディタはあるのですが一番上手く使えるのは結局のところ Emacs となっています…。
 
 ## (閑話休題)筆者の Emacs 環境について
+
+![](/images/introduce_org-roam/doomemacs.png)
 
 org については Emacs を使わないとパワーを発揮しないのですがそもそも Emacs の設定とかどのプラグイン(ELisp)が良いかなど非常に初心者には分かりづらいなと思います。そこで自分は[Doom Emacs](https://github.com/doomemacs/doomemacs)というコンフィグフレームワーク(README に書いてた)を使っています。
 
@@ -96,9 +102,15 @@ Doom Emacs で `Space n r d t` と押下すると今日の日付の org ファ�
 #+title: 2024-12-05
 ```
 
+![](/images/introduce_org-roam/org-roam_1.png)
+
 のように ID やタイトルが自動的に挿入されます。org-roam は sqlite3 を使ってこうしたファイルを管理しているため高速に検索などが可能になっています。
 
+![](/images/introduce_org-roam/org-roam_2.png)
+
 この org ファイルを開いた状態で `Space m m i` と押下するとリンクの挿入ができるようになるので、ここで既存の org ファイルを選択するとその文書へのリンクが出来ます。
+
+![](/images/introduce_org-roam/org-roam_3.png)
 
 リンクを多数挿入していくと…
 
@@ -109,12 +121,17 @@ Doom Emacs で `Space n r d t` と押下すると今日の日付の org ファ�
 
 アイディア出しで整理していくのにも便利ですし、単純にその日の日報として使い、その中でまとまった量のテキストを書くときには別 org ファイルとしてリンクするなどして自分は使っています。
 
+![](/images/introduce_org-roam/org-roam_4.png)
+
 全部のテキストを org-roam で管理することによって、ローカルに文書の DB が構築できるので非常に便利です。
 
 必要性があれば org ファイル内で `Space m e` と押下すると色々な形式にエキスポート(pandoc を内部で使用)するので、必要に応じてファイルを書き出して使っています。
 
-org モードの使い勝手も相まって自分的には最強なメモ環境のご紹介でした。
+![](/images/introduce_org-roam/org-roam_5.png)
 
 # さいごに
+ざっくりと簡単にではありますが、org モードの使い勝手も相まって自分的には最強なメモ環境のご紹介でした。
+
+org モード自体[マニュアル](https://orgmode.org/manual/)がとんでもない量になるくらい多機能だったりします。このモードのためだけに Emacs 導入するという価値があるのでは?と個人的には感じているので、みなさんもぜひ使ってみてください。
 
 明日は [@Kurusu\_ima](https://qiita.com/Kurusu_ima)さんです。お楽しみにー!
